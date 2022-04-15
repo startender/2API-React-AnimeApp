@@ -7,14 +7,29 @@
 }
 
 :root {
-  --acent-dark: 
-  --bg-dark
-;
+  --acent-dark: black; 
+  --bg-dark: black;
+}
+
+.btn-link {
+  background-color: #555555;
+  border: none;
+  color: rgb(251, 249, 249);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-left: 0.6rem;
+  border-radius: 4px;
 }
 
 .layoutdark {
   background-color: black;
-  height: 100vh;
+  height: 100%;
 }
 
 header {
@@ -30,7 +45,13 @@ header h1 {
 }
 
 header h1 strong {
-  color: #313131;
+  color: #8a1313;
+}
+
+h3 {
+  text-align: center;
+  color: #8a1313;
+  margin-bottom: 0.5rem;
 }
 
 a {
@@ -47,9 +68,16 @@ a {
   transition: 0.4s;
 }
 
+.anime-list a {
+  padding: 50px 20px;
+}
+
 a:hover {
-  background-color: #313131;
+  background-color: #904c4c;
   color: #aaa;
+}
+.btn-link:hover {
+  background-color: #904c4c;
 }
 
 .content-wrap {
@@ -139,7 +167,7 @@ a:hover {
 }
 
 .content-wrap main .main-head .search-box input:focus, .content-wrap main .main-head .search-box input:valid {
-  background-color: #313131;
+  background-color: #6e2929;
   color: #fff;
 }
 

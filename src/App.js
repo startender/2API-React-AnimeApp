@@ -29,12 +29,12 @@ function App() {
   };
 
   async function GetUpdates(_options) {
-    const response = await fetch('https://anime-release.p.rapidapi.com/anime', _options);
+    const response = await fetch('https://anime-release.p.rapidapi.com/anime/', _options);
     if (response.ok) {
       const updates = await response.json();
       // const someUpdates = updates.slice(0, 5);
       // console.log(someUpdates);
-      SetUpdates(updates.slice(0, 7));
+      SetUpdates(updates.slice(0, 10));
     }
   }
   useEffect(() => {

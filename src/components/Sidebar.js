@@ -11,7 +11,7 @@ function Sidebar({ topAnime, animeUpdates }) {
             { anime.title }
           </a>
         ))}
-        <h3>Anime Udpates</h3>
+        <h3>Anime&Manga Udpates</h3>
         {animeUpdates.map((anime) => (
           <a href={anime.url} target="_blank" rel="noreferrer" key={anime.mal_id}>
             { anime.title }

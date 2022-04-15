@@ -5,8 +5,8 @@ function Header() {
     <header>
       <h1>
         The
-        <strong>Anime</strong>
-        Database
+        <strong>Anime&Manga</strong>
+        Database&Updates
       </h1>
     </header>
   );
